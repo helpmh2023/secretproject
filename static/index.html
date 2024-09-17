@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <link rel="stylesheet" href="../css/auth.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Moderustic:wght@300..800&display=swap" rel="stylesheet">
+</head>
+<body bgcolor="black">
+    
+    <div id="particles-js"></div>
+    <h1 class="pt-10 text-6xl font-bold text-center text-blue-600 moderustic">
+        
+    </h1>
+
+    <!-- Authentication html and css-->
+
+    <div class="form-container">
+        <div class="form-col">
+            <div class="btn-box">
+                <button class="btn btn-1" id="login">Sign In</button>
+                <button class="btn btn-2" id="register">Sign Up</button>                
+            </div>
+            <!--Form Container-->
+        <form  class="form-box login-form">
+            <div class="form-title">
+                <span>Sign In</span>
+            </div>
+            <div class="form-inputs">
+                <div class="input-box">
+                    <input type="text" class="inputs input-field" placeholder="Username" required>
+                    <ion-icon name="person-outline" class="icon"></ion-icon>
+                </div>
+                <div class="input-box">
+                    <input type="password" class="inputs input-field" placeholder="Password" required>
+                    <ion-icon name="lock-closed-outline" class="icon"></ion-icon>
+                </div>
+            </div>
+        </form>
+        
+        </div>
+    </div>
+    
+    <div class="cursor-dot" data-cursor-dot=""></div>
+    <div class="cursor-out" data-cursor-out=""></div>   
+    <script src="../scripts/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
